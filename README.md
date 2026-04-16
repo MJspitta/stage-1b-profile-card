@@ -19,11 +19,11 @@ The task is to build a small, accessible, responsive Profile Card component/page
 
 ### Screenshot
 
-![Profile Card Component Screenshot]()
+![Profile Card Component Screenshot](./assets/screenchot.png)
 
 ### Links
 
-- Live Site URL: [Profile Card Component Live]()
+- Live Site URL: [Profile Card Component Live](https://mjspitta.github.io/stage-1b-profile-card/)
 
 ## My process
 

@@ -1,6 +1,4 @@
-/**
- * Updates the milliseconds clock
- */
+
 function updateTime() {
   const timeDisplay = document.querySelector('[data-testid="test-user-time"]');
   if (timeDisplay) {
@@ -8,8 +6,6 @@ function updateTime() {
   }
 }
 
-// Initial render
 updateTime();
 
-// Update every 1000ms for performance and accessibility (prevents screen reader overload)
 setInterval(updateTime, 1000);

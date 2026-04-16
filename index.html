@@ -6,6 +6,8 @@
     <title>Profile Card</title>
 
     <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="https://kit.fontawesome.com/be95f07fec.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <article data-testid="test-profile-card">
@@ -19,7 +21,7 @@
 
       <div class="card-content">
         <header>
-          <h2 data-testid="test-user-name">Madu Jang</h2>
+          <h2 data-testid="test-user-name" aria-label="User name">Madu Jang</h2>
         </header>
 
         <p data-testid="test-user-bio">
@@ -35,7 +37,7 @@
 
         <div class="lists-container">
           <section>
-            <h3>Hobbies</h3>
+            <h3 aria-label="User hobbies">Hobbies</h3>
             <ul data-testid="test-user-hobbies">
               <li>Playing and watching Basketball</li>
               <li>Listening to music</li>
@@ -44,7 +46,7 @@
           </section>
 
           <section>
-            <h3>Dislikes</h3>
+            <h3 aria-label="User dislikes">Dislikes</h3>
             <ul data-testid="test-user-dislikes">
               <li>Dishonesty</li>
               <li>Entitlement</li>
@@ -61,7 +63,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="test-user-social-github"
-                >GitHub</a
+                ><i class="fa-brands fa-square-github fa-lg"></i></a
               >
             </li>
             <li>
@@ -70,7 +72,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="test-user-social-linkedin"
-                >LinkedIn</a
+                ><i class="fa-brands fa-linkedin fa-lg"></i></a
               >
             </li>
             <li>
@@ -79,7 +81,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="test-user-social-twitter"
-                >Twitter</a
+                ><i class="fa-brands fa-square-x-twitter fa-lg"></i></a
               >
             </li>
           </ul>
