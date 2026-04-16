@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <figure class="avatar-container">
+        <img
+          src="./assets/avatar.jpg"
+          alt="Portrait of Madu"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div class="card-content">
+        <header>
+          <h2 data-testid="test-user-name">Madu Jang</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          I am a skilled and passionate frontend developer specializing in
+          building accessible, high-performance web applications using modern
+          JavaScript and semantic HTML.
+        </p>
+
+        <div class="time-box">
+          Current Epoch:
+          <span data-testid="test-user-time" aria-live="polite"></span> ms
+        </div>
+
+        <div class="lists-container">
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Playing and watching Basketball</li>
+              <li>Listening to music</li>
+              <li>Video games</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Dishonesty</li>
+              <li>Entitlement</li>
+              <li>Arsenal Fans</li>
+            </ul>
+          </section>
+        </div>
+
+        <nav>
+          <ul data-testid="test-user-social-links">
+            <li>
+              <a
+                href="https://github.com/MJspitta"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/madu-jang/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://x.com/madu_jang"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </article>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

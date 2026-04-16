@@ -33,7 +33,6 @@ The task is to build a small, accessible, responsive Profile Card component/page
 - CSS custom properties
 - Flexbox
 - Vanilla JavaScript
-- Mobile-first workflow
 
 ## How to Run Locally
 
@@ -42,13 +41,13 @@ Follow these steps to set up and view the project on your local machine:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MJspitta
+git clone https://github.com/MJspitta/stage-1b-profile-card
 ```
 
 ### 2. Navigate into the project folder
 
 ```bash
-cd profile-card-stage-0
+cd stage-1b-profile-card
 ```
 
 ### 3. Open the project in your code editor
@@ -72,5 +71,4 @@ The site will open automatically in your browser.
 ## Author
 
 - LinkedIn - [@madu-jang](https://www.linkedin.com/in/madu-jang/)
-- Twitter - [@madu_jang](https://x.com/madu_jang)
 - Github - [@MJspitta](https://github.com/MJspitta)
